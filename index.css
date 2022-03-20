@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+body{
+    display: flex;
+
+
+    width: 100%;
+    overflow: hidden;
+}
+
+img{
+    left: -20px;
+    top: -300px;
+    width:3000px;
+    position: absolute;
+    z-index: 0;
+    filter: blur(13px);
+}
+
+.form{
+    font-family: 'Nanum Gothic', sans-serif;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    padding: 100px;
+    margin-top:200px;
+    box-shadow: 0 0 24px rgb(59, 59, 59);
+    border-radius: 5px;
+}
+
+.form h2{
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.form input{
+    padding: 4px;
+  
+}
+
+.form input:focus{
+    outline: 0;
+}
+
+
+.textIn{
+    position: relative;
+    top:-35px;
+    width: fit-content;
+    background-color: white;
+    display: flex;
+    font-size: 0.8em;
+    left: 6px;
+}
+
+.btn{
+    outline: 0;
+    background-color: rgb(50, 190, 255);
+    border: 0;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border-radius: 3px;
+    box-shadow: 0 0 4px rgb(59, 59, 59);
+    font-size: 1.08em;
+}
+
+.btn:focus{
+    background-color: rgb(34, 119, 158);
+}
+
+.btn:hover{
+    filter:brightness(1.2);
+}
